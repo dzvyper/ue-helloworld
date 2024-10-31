@@ -1,0 +1,18 @@
+[requires]
+up-cpp/[^1.0.1, include_prerelease]
+spdlog/[~1.13]
+up-core-api/1.6.0-alpha2
+protobuf/[>=3.21.12]
+up-transport-zenoh-cpp/1.0.0-rc3
+zenohcpp/1.0.0-rc5
+zenohc/1.0.0-rc5
+
+[test_requires]
+gtest/[~1.14]
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+[layout]
+cmake_layout
